@@ -39,13 +39,30 @@ The analytical pipeline was built using cloud-based geospatial computing and des
 ---
 
 ## 📊 Key Maps & Visualizations
-*(High-resolution exports of the final cartographic layouts are stored in the `/maps` directory)*
 
-* **Map 1: Land Surface Temperature (LST):** Highlights urban heat islands and high-temperature zones across Kano.
-* **Map 2: Carbon Monoxide (CO) Column Density:** Spatial distribution of trace gases driven by combustion and regional activities.
-* **Map 3: Nitrogen Dioxide ($\text{NO}_2$) Pollution:** Maps tropospheric $\text{NO}_2$ concentrations across urban and transport corridors.
-* **Map 4: Compound Environmental Exposure Hotspots:** A composite raster displaying areas facing single vs. multiple simultaneous environmental stressors.
-* **Map 5: Population Overlay:** Cross-references exposure grids with human settlement patterns to prioritize populated zones.
+### 1. Compound Environmental Exposure Hotspots
+A composite multi-hazard index showing the spatial intersection of elevated LST, CO, and $\text{NO}_2$ across Kano State:
+![Compound Environmental Exposure Hotspots](maps/Compound.png)
+
+### 2. Population & Community Exposure Overlay
+Cross-referencing the 1-km compound exposure grid with high-resolution GRID3 population distribution to highlight vulnerable residential corridors:
+![Compound Exposure with Population Overlay](maps/Compound%20with%20POP.png)
+
+### 3. Individual Atmospheric & Thermal Indicators
+<details>
+<summary><b>Click to expand individual indicator maps (LST, CO, NO₂)</b></summary>
+
+#### Land Surface Temperature (LST) - MODIS Terra & Aqua
+![Land Surface Temperature](maps/LST.png)
+
+#### Carbon Monoxide (CO) Tropospheric Column - Sentinel-5P TROPOMI
+![Carbon Monoxide Column Density](maps/CO.png)
+
+#### Nitrogen Dioxide (NO₂) Tropospheric Column - Sentinel-5P TROPOMI
+![Nitrogen Dioxide Concentration](maps/NO2.png)
+
+</details>
+
 
 ---
 

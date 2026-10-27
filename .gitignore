@@ -1,0 +1,14 @@
+# Telecom & Ookla Data (reserved for separate connectivity project)
+Nigeria Ookla.zip
+Nigeria Ookla/
+
+# QGIS temporary files
+*.qgz~
+*.qgs~
+*.aux.xml
+
+# Python & System
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
